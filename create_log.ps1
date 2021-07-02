@@ -1,0 +1,1 @@
+New-Item -Path ./log -Name "log$(Get-Date -Format yyyyMMddhhmmss).txt" -ItemType "file" -Value "This is a test string"
